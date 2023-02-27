@@ -6,7 +6,6 @@ export default function ProductList(props) {
 
   return (
     <div>
-        <h1>Produtos</h1>
         <div>
           {
             props.products.map((product) => (

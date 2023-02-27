@@ -2,6 +2,7 @@ import './App.css';
 import ProductList from './components/ProductList'
 import { useEffect, useState } from 'react'
 import api from './services/api'
+import Header from './components/Header';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
   
   return (
     <div className="App">
+      <Header/>
       <ProductList products={productList}/>
     </div>
   );
